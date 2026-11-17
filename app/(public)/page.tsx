@@ -1,9 +1,13 @@
-import ExampleAnimation from "@/components/animations/ExampleAnimation";
+import Hero from "@/components/home/Hero";
+import Services from "@/components/home/Services";
+import Products from "@/components/home/Products";
 
 export default function HomePage() {
   return (
-    <main>
-      <ExampleAnimation />
-    </main>
+    <>
+      <Hero />
+      <Services />
+      <Products />
+    </>
   );
 }
