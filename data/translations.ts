@@ -138,7 +138,79 @@ footer: {
   rights: "All rights reserved.",
 },
 
+about: {
+  header: {
+    eyebrow: "About Us",
+    title: "About OMI ENTERPRISE",
+    description: "A reliable partner for construction, general supply and equipment solutions in Bangladesh.",
+  },
+  intro: {
+    eyebrow: "Who We Are",
+    title: "Building Trust. Delivering Quality.",
+    p1: "OMI ENTERPRISE is a supplier and construction company serving clients across Bangladesh. We provide construction materials, general supply, equipment and machinery, and construction services.",
+    p2: "We focus on quality, dependable delivery and professional project support, so our clients can rely on us from the first inquiry to the final handover.",
+    imageAlt: "OMI ENTERPRISE construction and supply work",
+  },
+  mission: {
+    title: "Our Mission",
+    text: "To deliver quality construction services and reliable supply solutions, supporting every project with professionalism and care.",
+  },
+  vision: {
+    title: "Our Vision",
+    text: "To be a trusted name in supply and construction in Bangladesh, known for quality work and long-term client relationships.",
+  },
+  expertise: {
+    eyebrow: "Our Expertise",
+    title: "What We Do",
+    description: "Four areas of work, one dependable partner.",
+  },
+  values: {
+    eyebrow: "Our Values",
+    title: "What We Stand For",
+    description: "The principles behind every supply order and every project.",
+    items: {
+      quality: { title: "Quality Commitment", description: "We care about the quality of every material, product and piece of work we deliver." },
+      reliable: { title: "Reliable Supply", description: "Dependable sourcing and delivery that projects can plan around." },
+      professional: { title: "Professional Service", description: "Clear communication and organized project support from start to finish." },
+      satisfaction: { title: "Customer Satisfaction", description: "Our work is successful when our clients are satisfied." },
+    },
+  },
+},
+cta: {
+  title: "Let's Build Something Great Together.",
+  description: "Tell us about your project or supply requirement.",
+  contact: "Contact Us",
+},
+
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const bn: typeof en = {
   nav: {
@@ -278,6 +350,57 @@ footer: {
   notAdded: "যোগাযোগের তথ্য শীঘ্রই যুক্ত করা হবে।",
   rights: "সর্বস্বত্ব সংরক্ষিত।",
 },
+
+
+about: {
+  header: {
+    eyebrow: "আমাদের সম্পর্কে",
+    title: "OMI ENTERPRISE সম্পর্কে",
+    description: "বাংলাদেশে নির্মাণ, সাধারণ সাপ্লাই ও যন্ত্রপাতি সমাধানে একটি নির্ভরযোগ্য অংশীদার।",
+  },
+  intro: {
+    eyebrow: "আমরা কারা",
+    title: "বিশ্বাস গড়ি। মান নিশ্চিত করি।",
+    p1: "OMI ENTERPRISE একটি সাপ্লায়ার ও কনস্ট্রাকশন প্রতিষ্ঠান, যা বাংলাদেশজুড়ে ক্লায়েন্টদের সেবা দেয়। আমরা নির্মাণসামগ্রী, সাধারণ সাপ্লাই, যন্ত্রপাতি ও মেশিনারি এবং নির্মাণ সেবা প্রদান করি।",
+    p2: "মান, নির্ভরযোগ্য সরবরাহ এবং পেশাদার প্রকল্প সহায়তার ওপর আমরা গুরুত্ব দিই, যাতে প্রথম অনুসন্ধান থেকে কাজ হস্তান্তর পর্যন্ত ক্লায়েন্টরা আমাদের ওপর ভরসা করতে পারেন।",
+    imageAlt: "OMI ENTERPRISE-এর নির্মাণ ও সাপ্লাই কাজ",
+  },
+  mission: {
+    title: "আমাদের লক্ষ্য",
+    text: "মানসম্পন্ন নির্মাণসেবা ও নির্ভরযোগ্য সাপ্লাই সমাধান দেওয়া এবং পেশাদারিত্ব ও যত্নের সাথে প্রতিটি প্রকল্পে সহায়তা করা।",
+  },
+  vision: {
+    title: "আমাদের লক্ষ্যমাত্রা",
+    text: "বাংলাদেশে সাপ্লাই ও নির্মাণ খাতে একটি বিশ্বস্ত নাম হওয়া, যা মানসম্পন্ন কাজ ও দীর্ঘমেয়াদি ক্লায়েন্ট সম্পর্কের জন্য পরিচিত।",
+  },
+  expertise: {
+    eyebrow: "আমাদের দক্ষতা",
+    title: "আমরা কী করি",
+    description: "চারটি কাজের ক্ষেত্র, একজন নির্ভরযোগ্য অংশীদার।",
+  },
+  values: {
+    eyebrow: "আমাদের মূল্যবোধ",
+    title: "আমরা যা বিশ্বাস করি",
+    description: "প্রতিটি সাপ্লাই অর্ডার ও প্রকল্পের পেছনের নীতি।",
+    items: {
+      quality: { title: "মানের প্রতিশ্রুতি", description: "আমরা যে সামগ্রী, পণ্য ও কাজ সরবরাহ করি, তার প্রতিটির মানে যত্নবান।" },
+      reliable: { title: "নির্ভরযোগ্য সরবরাহ", description: "এমন সংগ্রহ ও ডেলিভারি, যার ওপর ভরসা করে প্রকল্প পরিকল্পনা করা যায়।" },
+      professional: { title: "পেশাদার সেবা", description: "শুরু থেকে শেষ পর্যন্ত স্পষ্ট যোগাযোগ ও সংগঠিত প্রকল্প সহায়তা।" },
+      satisfaction: { title: "গ্রাহক সন্তুষ্টি", description: "ক্লায়েন্ট সন্তুষ্ট হলেই আমাদের কাজ সফল।" },
+    },
+  },
+},
+cta: {
+  title: "আসুন, একসাথে দারুণ কিছু গড়ি।",
+  description: "আপনার প্রকল্প বা সাপ্লাইয়ের প্রয়োজন আমাদের জানান।",
+  contact: "যোগাযোগ করুন",
+},
+
+
+
+
+
+
 };
 
 
