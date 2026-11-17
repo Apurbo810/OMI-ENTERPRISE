@@ -182,6 +182,58 @@ cta: {
   contact: "Contact Us",
 },
 
+supply: {
+  header: {
+    eyebrow: "Supply",
+    title: "Construction Materials & General Supply",
+    description: "Dependable supply for construction projects and businesses across Bangladesh.",
+  },
+  categories: {
+    materials: {
+      title: "Construction Materials",
+      description: "Materials for building and civil construction work, supplied to match your project requirements.",
+      items: ["Material item one", "Material item two", "Material item three", "Material item four"], // PLACEHOLDER: replace with confirmed items
+    },
+    general: {
+      title: "General Supply",
+      description: "General supply items for businesses, organizations and project sites.",
+      items: ["Supply item one", "Supply item two", "Supply item three", "Supply item four"], // PLACEHOLDER: replace with confirmed items
+    },
+  },
+},
+process: {
+  eyebrow: "How It Works",
+  title: "How to Place an Order",
+  description: "A simple process from your first inquiry to delivery.",
+  steps: {
+    inquire: { title: "Send an Inquiry", description: "Tell us what you need through the form, phone or WhatsApp." },
+    quote: { title: "Get a Quotation", description: "We review your requirement and prepare a quotation." },
+    confirm: { title: "Confirm the Order", description: "Approve the details and we arrange your supply." },
+    deliver: { title: "Delivery", description: "Your order is delivered to the agreed location." },
+  },
+},
+
+equipment: {
+  header: {
+    eyebrow: "Equipment",
+    title: "Equipment & Machinery",
+    description: "Equipment and machinery solutions to support construction and project work across Bangladesh.",
+  },
+  categories: {
+    equipment: {
+      title: "Construction Equipment",
+      description: "Tools and equipment for construction sites and project work, supplied to match your requirements.",
+      items: ["Equipment item one", "Equipment item two", "Equipment item three", "Equipment item four"], // PLACEHOLDER: replace with confirmed items
+    },
+    machinery: {
+      title: "Machinery",
+      description: "Machinery solutions for construction and related work, with support from inquiry to delivery.",
+      items: ["Machinery item one", "Machinery item two", "Machinery item three", "Machinery item four"], // PLACEHOLDER: replace with confirmed items
+    },
+  },
+},
+
+
 };
 
 
@@ -398,7 +450,57 @@ cta: {
 
 
 
+supply: {
+  header: {
+    eyebrow: "সাপ্লাই",
+    title: "নির্মাণসামগ্রী ও সাধারণ সাপ্লাই",
+    description: "বাংলাদেশজুড়ে নির্মাণ প্রকল্প ও ব্যবসার জন্য নির্ভরযোগ্য সাপ্লাই।",
+  },
+  categories: {
+    materials: {
+      title: "নির্মাণসামগ্রী",
+      description: "ভবন ও সিভিল নির্মাণ কাজের জন্য সামগ্রী, আপনার প্রকল্পের প্রয়োজন অনুযায়ী সরবরাহ করা হয়।",
+      items: ["সামগ্রী এক", "সামগ্রী দুই", "সামগ্রী তিন", "সামগ্রী চার"],
+    },
+    general: {
+      title: "সাধারণ সাপ্লাই",
+      description: "ব্যবসা, প্রতিষ্ঠান ও প্রকল্প সাইটের জন্য সাধারণ সাপ্লাই সামগ্রী।",
+      items: ["সাপ্লাই আইটেম এক", "সাপ্লাই আইটেম দুই", "সাপ্লাই আইটেম তিন", "সাপ্লাই আইটেম চার"],
+    },
+  },
+},
+process: {
+  eyebrow: "কীভাবে কাজ হয়",
+  title: "কীভাবে অর্ডার করবেন",
+  description: "প্রথম অনুসন্ধান থেকে ডেলিভারি পর্যন্ত একটি সহজ প্রক্রিয়া।",
+  steps: {
+    inquire: { title: "অনুসন্ধান পাঠান", description: "ফর্ম, ফোন বা হোয়াটসঅ্যাপে আপনার প্রয়োজন জানান।" },
+    quote: { title: "কোটেশন নিন", description: "আমরা আপনার প্রয়োজন দেখে কোটেশন তৈরি করি।" },
+    confirm: { title: "অর্ডার নিশ্চিত করুন", description: "বিস্তারিত অনুমোদন করুন, আমরা সাপ্লাইয়ের ব্যবস্থা করব।" },
+    deliver: { title: "ডেলিভারি", description: "নির্ধারিত স্থানে আপনার অর্ডার পৌঁছে দেওয়া হয়।" },
+  },
+},
 
+
+equipment: {
+  header: {
+    eyebrow: "যন্ত্রপাতি",
+    title: "যন্ত্রপাতি ও মেশিনারি",
+    description: "বাংলাদেশজুড়ে নির্মাণ ও প্রকল্প কাজে সহায়তার জন্য যন্ত্রপাতি ও মেশিনারি সমাধান।",
+  },
+  categories: {
+    equipment: {
+      title: "নির্মাণ যন্ত্রপাতি",
+      description: "নির্মাণ সাইট ও প্রকল্প কাজের জন্য সরঞ্জাম ও যন্ত্রপাতি, আপনার প্রয়োজন অনুযায়ী সরবরাহ করা হয়।",
+      items: ["যন্ত্রপাতি এক", "যন্ত্রপাতি দুই", "যন্ত্রপাতি তিন", "যন্ত্রপাতি চার"],
+    },
+    machinery: {
+      title: "মেশিনারি",
+      description: "নির্মাণ ও সংশ্লিষ্ট কাজের জন্য মেশিনারি সমাধান, অনুসন্ধান থেকে ডেলিভারি পর্যন্ত সহায়তাসহ।",
+      items: ["মেশিনারি এক", "মেশিনারি দুই", "মেশিনারি তিন", "মেশিনারি চার"],
+    },
+  },
+},
 
 
 };
