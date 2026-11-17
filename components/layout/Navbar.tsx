@@ -24,7 +24,6 @@ export default function Navbar() {
       mm.add("(prefers-reduced-motion: no-preference)", () => {
         gsap.from(".nav-anim", {
           y: -14,
-          opacity: 0,
           duration: 0.6,
           stagger: 0.05,
           ease: "power2.out",
@@ -66,8 +65,8 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop links */}
-        <nav aria-label="Main" className="hidden xl:block">
-          <ul className="flex items-center gap-8">
+        <nav aria-label="Main" className="hidden lg:block">
+          <ul className="flex items-center gap-4 xl:gap-8">
             {NAV_ITEMS.map((item) => (
               <li key={item.key} className="nav-anim">
                 <Link
@@ -101,7 +100,7 @@ export default function Navbar() {
             aria-expanded={open}
             aria-controls="mobile-menu"
             aria-label={open ? t.nav.closeMenu : t.nav.openMenu}
-            className="flex h-11 w-11 items-center justify-center rounded-md text-white xl:hidden"
+            className="flex h-11 w-11 items-center justify-center rounded-md text-white lg:hidden"
           >
             {open ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -112,7 +111,7 @@ export default function Navbar() {
       {open && (
         <div
           id="mobile-menu"
-          className="xl:hidden fixed inset-x-0 top-16 bottom-0 overflow-y-auto bg-[#10243A] px-4 pb-10 pt-4 lg:top-20"
+          className="lg:hidden fixed inset-x-0 top-16 bottom-0 overflow-y-auto bg-[#10243A] px-4 pb-10 pt-4"
         >
           <ul className="flex flex-col">
             {NAV_ITEMS.map((item) => (

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" fill="none">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B3655"/>
+      <stop offset="1" stop-color="#10243A"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#FFFFFF" stroke-opacity=".06"/>
+    </pattern>
+  </defs>
+  <path fill="url(#background)" d="M0 0h1200v900H0z"/>
+  <path fill="url(#grid)" d="M0 0h1200v900H0z"/>
+  <circle cx="920" cy="210" r="118" fill="#C6A15B" fill-opacity=".12"/>
+  <path d="M175 760V420l210-120v460M385 760V245l250 105v410M635 760V390l165-90v460M800 760V445l225-125v440" stroke="#C6A15B" stroke-opacity=".75" stroke-width="12"/>
+  <path d="M175 470h210M175 555h210M175 640h210M175 725h210M385 390h250M385 490h250M385 590h250M385 690h250M635 470h165M635 565h165M635 660h165M800 525h225M800 625h225M800 725h225" stroke="#FFFFFF" stroke-opacity=".45" stroke-width="8"/>
+  <path d="M120 760h960" stroke="#FFFFFF" stroke-opacity=".65" stroke-width="12"/>
+</svg>

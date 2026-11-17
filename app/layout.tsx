@@ -4,6 +4,7 @@ import "lenis/dist/lenis.css";
 import SmoothScroll from "@/components/providers/SmoothScroll";
 import { LanguageProvider } from "@/components/providers/LanguageProvider";
 import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
   title: {
@@ -26,6 +27,7 @@ export default function RootLayout({
           <SmoothScroll>
             <Navbar />
             <main className="pt-16 lg:pt-20">{children}</main>
+            <Footer />
           </SmoothScroll>
         </LanguageProvider>
       </body>

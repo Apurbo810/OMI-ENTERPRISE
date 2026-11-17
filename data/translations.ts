@@ -71,6 +71,73 @@ products: {
     },
   },
 },
+projects: {
+  eyebrow: "Our Work",
+  title: "Projects",
+  description: "Completed and ongoing projects.",
+  filters: { all: "All", completed: "Completed", ongoing: "Ongoing" },
+  status: { completed: "Completed", ongoing: "Ongoing" },
+  viewProject: "View project",
+  viewAll: "View all projects",
+  empty: "No projects in this category yet.",
+  items: {
+    projectOne: { title: "Project Title (placeholder)", description: "Short project description will be added here." },
+    projectTwo: { title: "Project Title (placeholder)", description: "Short project description will be added here." },
+    projectThree: { title: "Project Title (placeholder)", description: "Short project description will be added here." },
+  },
+},
+gallery: {
+  eyebrow: "Gallery",
+  title: "Project Photos & Videos",
+  description: "A look at our work on site.",
+  itemAlt: "Project media",
+  play: "Play video",
+  close: "Close",
+  previous: "Previous",
+  next: "Next",
+  viewAll: "View all projects",
+},
+contact: {
+  eyebrow: "Contact Us",
+  title: "Get in Touch",
+  description: "Send us your requirement and we will get back to you.",
+  phone: "Phone",
+  whatsapp: "WhatsApp",
+  email: "Email",
+  address: "Address",
+  chatOnWhatsApp: "Chat on WhatsApp",
+  notAdded: "Contact details will be added soon.",
+  form: {
+    name: "Full Name",
+    phone: "Phone Number",
+    email: "Email Address",
+    subject: "Subject",
+    message: "Message",
+    submit: "Send Inquiry",
+    sending: "Sending...",
+  },
+  errors: {
+    required: "This field is required.",
+    email: "Please enter a valid email address.",
+    phone: "Please enter a valid phone number.",
+  },
+  feedback: {
+    success: "Thank you! Your inquiry has been sent.",
+    error: "Something went wrong. Please try again.",
+    notConfigured:
+      "The form is not connected yet. Please contact us by phone, WhatsApp or email.",
+  },
+},
+footer: {
+  description:
+    "OMI ENTERPRISE provides construction services, general supply and equipment solutions across Bangladesh.",
+  quickLinks: "Quick Links",
+  contactTitle: "Contact",
+  followUs: "Follow Us",
+  notAdded: "Contact details will be added soon.",
+  rights: "All rights reserved.",
+},
+
 };
 
 const bn: typeof en = {
@@ -121,6 +188,7 @@ const bn: typeof en = {
       description: "ভবন, সিভিল ও সংস্কার কাজ, পেশাদার প্রকল্প সহায়তাসহ।",
     },
   },
+  
   },
   products: {
   eyebrow: "পণ্য",
@@ -144,6 +212,72 @@ const bn: typeof en = {
     },
   },
   },
+  projects: {
+  eyebrow: "আমাদের কাজ",
+  title: "প্রকল্পসমূহ",
+  description: "সম্পন্ন ও চলমান প্রকল্প।",
+  filters: { all: "সব", completed: "সম্পন্ন", ongoing: "চলমান" },
+  status: { completed: "সম্পন্ন", ongoing: "চলমান" },
+  viewProject: "প্রকল্প দেখুন",
+  viewAll: "সব প্রকল্প দেখুন",
+  empty: "এই বিভাগে এখনও কোনো প্রকল্প নেই।",
+  items: {
+    projectOne: { title: "প্রকল্পের নাম (প্লেসহোল্ডার)", description: "প্রকল্পের সংক্ষিপ্ত বিবরণ এখানে যুক্ত হবে।" },
+    projectTwo: { title: "প্রকল্পের নাম (প্লেসহোল্ডার)", description: "প্রকল্পের সংক্ষিপ্ত বিবরণ এখানে যুক্ত হবে।" },
+    projectThree: { title: "প্রকল্পের নাম (প্লেসহোল্ডার)", description: "প্রকল্পের সংক্ষিপ্ত বিবরণ এখানে যুক্ত হবে।" },
+  },
+},
+gallery: {
+  eyebrow: "গ্যালারি",
+  title: "প্রকল্পের ছবি ও ভিডিও",
+  description: "সাইটে আমাদের কাজের একটি ঝলক।",
+  itemAlt: "প্রকল্পের মিডিয়া",
+  play: "ভিডিও চালান",
+  close: "বন্ধ করুন",
+  previous: "আগের",
+  next: "পরের",
+  viewAll: "সব প্রকল্প দেখুন",
+},
+contact: {
+  eyebrow: "যোগাযোগ",
+  title: "আমাদের সাথে যোগাযোগ করুন",
+  description: "আপনার প্রয়োজন জানান, আমরা আপনার সাথে যোগাযোগ করব।",
+  phone: "ফোন",
+  whatsapp: "হোয়াটসঅ্যাপ",
+  email: "ইমেইল",
+  address: "ঠিকানা",
+  chatOnWhatsApp: "হোয়াটসঅ্যাপে চ্যাট করুন",
+  notAdded: "যোগাযোগের তথ্য শীঘ্রই যুক্ত করা হবে।",
+  form: {
+    name: "পূর্ণ নাম",
+    phone: "ফোন নম্বর",
+    email: "ইমেইল ঠিকানা",
+    subject: "বিষয়",
+    message: "বার্তা",
+    submit: "অনুসন্ধান পাঠান",
+    sending: "পাঠানো হচ্ছে...",
+  },
+  errors: {
+    required: "এই ঘরটি পূরণ করা আবশ্যক।",
+    email: "সঠিক ইমেইল ঠিকানা দিন।",
+    phone: "সঠিক ফোন নম্বর দিন।",
+  },
+  feedback: {
+    success: "ধন্যবাদ! আপনার অনুসন্ধান পাঠানো হয়েছে।",
+    error: "কিছু ভুল হয়েছে। আবার চেষ্টা করুন।",
+    notConfigured:
+      "ফর্মটি এখনও সংযুক্ত হয়নি। অনুগ্রহ করে ফোন, হোয়াটসঅ্যাপ বা ইমেইলে যোগাযোগ করুন।",
+  },
+},
+footer: {
+  description:
+    "OMI ENTERPRISE বাংলাদেশজুড়ে নির্মাণসেবা, সাধারণ সাপ্লাই ও যন্ত্রপাতি সমাধান প্রদান করে।",
+  quickLinks: "দ্রুত লিঙ্ক",
+  contactTitle: "যোগাযোগ",
+  followUs: "আমাদের অনুসরণ করুন",
+  notAdded: "যোগাযোগের তথ্য শীঘ্রই যুক্ত করা হবে।",
+  rights: "সর্বস্বত্ব সংরক্ষিত।",
+},
 };
 
 
